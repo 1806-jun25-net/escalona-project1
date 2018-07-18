@@ -15,4 +15,8 @@
     <ProjectReference Include="..\RestaurantReviews.Library\RestaurantReviews.Library.csproj" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
+
 </Project>
