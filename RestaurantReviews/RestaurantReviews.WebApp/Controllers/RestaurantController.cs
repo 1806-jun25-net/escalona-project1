@@ -118,7 +118,7 @@ namespace RestaurantReviews.WebApp.Controllers
                 }
                 return View(restaurant);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return View(restaurant);
             }
