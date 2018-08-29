@@ -74,5 +74,8 @@ namespace RestaurantReviews.Testing.Library.Models
             // xUnit allows checking for floating-point equality allowing for imprecision.
             Assert.Equal(average, restaurant.Score.Value, precision: 6);
         }
+
+        public void EmptyMethodForCodeSmell()
+        { }
     }
 }
